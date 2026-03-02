@@ -38,6 +38,10 @@ with st.sidebar:
         index=1 # Padrão H
     )
 
+    # Link discreto para página pessoal
+    st.markdown("---")
+    st.caption("👤 [Meu GitHub Pages](https://ei-raul.github.io/)")
+
 # Mapeamento da seleção para as constantes do qrcode
 mapa_erro = {
     "L (Baixo)": qrcode.constants.ERROR_CORRECT_L,
